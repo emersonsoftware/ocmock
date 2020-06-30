@@ -19,7 +19,7 @@ let package = Package(
         .target(name: "OCMock",
                 dependencies: [],
                 path: "Source",
-                exclude: ["en.lproj"],
+                exclude: ["en.lproj/InfoPlist.strings"],
                 sources: ["OCMock"],
                 publicHeadersPath: "OCMock",
                 cSettings: [.unsafeFlags(["-fno-objc-arc"])],
